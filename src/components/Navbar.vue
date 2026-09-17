@@ -41,7 +41,7 @@ function navigateTo(path: string) {
 
 <template>
   <header class="relative sticky top-4 z-40 mx-4 mt-4 rounded-3xl bg-gradient-to-r from-blue-600 via-sky-500 to-slate-900 border border-white/10 shadow-lg shadow-slate-900/20 dark:bg-slate-950/95 dark:border-slate-800">
-    <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-3">
+    <div class="flex w-full items-center justify-between gap-4 px-6 py-3">
       <div class="flex items-center gap-3 cursor-pointer z-50" @click="navigateTo('/')">
         <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900 text-white shadow-md">
           <span class="text-lg">S</span>
